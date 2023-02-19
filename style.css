@@ -25,3 +25,13 @@ h1{
     font-family:Cambria;
     text-decoration: underline;
 }
+.header{
+    margin-top:0;
+    padding:50px;
+    background-color: silver;
+}
+.footer{
+    margin-bottom:0;
+    padding:20px;
+    background-color: silver;
+}
