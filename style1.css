@@ -1,27 +1,23 @@
 body{
     text-align: left;
     margin:0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
 }
 .header{
     margin-top:0;
     padding:50px;
+    width:100%;
     height: 50px;
     background-color:rgb(106, 106, 187);
 }
 .middle{
     border-radius: 0;
-}
-.footer{
-    font-size: 10px;
-    color:white;
-    position:fixed;
-    bottom:0;
-    text-align: center;
-    padding:10px;
-    height: 50px;
-    width:100%;
-    background-color:rgb(106, 106, 187);
-    margin-top:100px;
+    padding-bottom: 50px;
 }
 .title{
     color:white;
@@ -58,4 +54,22 @@ h3{
 
 #PI{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.footer{
+    font-size: 10px;
+    color:white;
+    text-align: center;
+    padding:10px;
+    height: 50px;
+    width:100%;
+    background-color:rgb(106, 106, 187);
+    margin-top:auto;
+}
+
+@media screen and (max-width:900px){
+    .about{
+        font-size: 20px ;
+    }
 }
